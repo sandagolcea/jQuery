@@ -1,4 +1,5 @@
-div {
+
+.info-tabs {
     border-radius: 5px;
     background-color: #ABCDEF;
     transition: background-color 0.5s ease;
@@ -12,3 +13,31 @@ div {
 .active {
     background-color:#556677;
 }
+/* Input box focus */
+input {
+    margin-top: 30px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display:inline;
+}
+
+/* Yellow box for animation */
+#yellow-box {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #FFFF33;
+    position: relative;
+}
+
+#mario {
+  position: relative;
+  margin: 10px;
+  margin-left: 50%;
+}
+
+/*img {*/
+
+    /*left: 0;*/
+    /*top: 0;*/
+/*}*/
