@@ -1,0 +1,75 @@
+
+
+/**************************************************
+          Home About and other tabs 
+**************************************************/
+.info-tabs {
+    border-radius: 5px;
+    background-color: #ABCDEF;
+    transition: background-color 0.5s ease;
+    display:inline;
+    font-size:25px;
+    padding:20px;
+    border:1px solid #ccc;
+    margin-top:10px;
+}
+
+.active {
+    background-color:#556677;
+}
+
+/**************************************************
+            Input box focus 
+**************************************************/
+input {
+    margin-top: 30px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display:inline;
+}
+
+/************************************************** 
+              Red ball 
+**************************************************/
+#red-ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #991111;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#451111), to(#9911));
+    background-image: -webkit-linear-gradient(left, #451111, #991111); 
+    background-image:    -moz-linear-gradient(left, #451111, #991111);
+    background-image:     -ms-linear-gradient(left, #451111, #991111);
+    background-image:      -o-linear-gradient(left, #451111, #991111);
+}
+
+/************************************************** 
+          Yellow box for animation 
+**************************************************/
+#yellow-box {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #FFFF33;
+    position: relative;
+}
+
+/***************************************************
+                    Mario!!
+**************************************************/
+
+#mario {
+  position: relative;
+  margin: 10px;
+  margin-left: 50%;
+}
+
+/***************************************************
+              Elevator
+****************************************************/
+
+#elevator {
+  top: 50;
+  position: relative;
+}
+

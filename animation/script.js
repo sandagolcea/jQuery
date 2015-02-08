@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
   $('.info-tabs').hover(
     function(){
         $(this).addClass('active');
@@ -14,10 +15,23 @@ $(document).ready(function(){
       $(this).css('outline-color','#FF0000');
   });
 
+  // bounce a red ball
+  $('#red-ball').click(function(){
+        $(this).effect('bounce',{times:3},500);
+  });
+  // make the red ball draggable
+  $('#red-ball').draggable();
+
+
   // animate yellow box on pressing any key
   $(document).keydown(function(){
         $('#yellow-box').animate({left:'+=10px'},500);
   });
+  // now click to blow up the box! (using jQuery UI)
+  $('#yellow-box').click(function(){
+        $(this).effect('explode');
+  });
+
 
   // moving mario around depending on key pressed
   $(document).keydown(function(key) {
@@ -41,6 +55,8 @@ $(document).ready(function(){
     }
   });
 
+  // slide the lift into view
+  $('#elevator').effect('slide');
   // moving the lift up and down wohoo
   var liftUp = true;
   $('#elevator').click(function(){
